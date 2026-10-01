@@ -1,5 +1,5 @@
 (async () => {
-const db = require('./db');
+const db = require('./bd');
 console.log('Começou!');
 console.log('SELECT * FROM clientes');
 const clientes = await db.consultarClientes();
